@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+// this activity contains the settings fields for configuring the google map
 public class SettingsActivity extends AppCompatActivity {
 
     boolean firstTime[] = {true};

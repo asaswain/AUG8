@@ -16,12 +16,12 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="80dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:textSize="20sp"
             android:textColor="@color/black"
-            android:text="@string/camera_caption"/>
+            android:text="@string/map_type_caption"/>
 
         <Spinner
             android:id="@+id/mapType"
@@ -37,12 +37,12 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="80dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:textSize="20sp"
             android:textColor="@color/black"
-            android:text="@string/map_type_caption"/>
+            android:text="@string/camera_caption"/>
 
         <EditText
             android:id="@+id/cameraAngle"

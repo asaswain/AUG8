@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <!--
+    <!-- This XML code is commented out for future reference
+    because I can't get it to work
     xmlns:map="http://schemas.android.com/apk/res-auto"
     map:cameraBearing="0"
     map:cameraTilt="0"
@@ -18,7 +19,7 @@
     -->
 
     <TextView
-        android:id="@+id/tvNombreCentro"
+        android:id="@+id/caption"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingBottom="10dp"
@@ -31,4 +32,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:tag="tag_fragment_map" />
+
 </LinearLayout>

@@ -2,9 +2,7 @@ package asa.scps.nyu.edu.nycmaps;
 
 import com.google.android.gms.maps.GoogleMap;
 
-/**
- * Created by asaswain on 8/14/15.
- */
+// this class is used to store settings for the google maps between the two activities
 public class MapSettings {
 
     public static Integer mapType = GoogleMap.MAP_TYPE_NORMAL;
